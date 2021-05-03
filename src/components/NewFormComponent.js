@@ -12,8 +12,8 @@ const NewFormComponent = () => {
         useChangeDocTitle 
     } = context;
 
-    const name = useFormValue('Marry');
-    const surname = useFormValue('Beale');
+    const name = useFormValue('Jeus');
+    const surname = useFormValue('Diaz');
     const width = useWindowWidth();
 
     useChangeDocTitle(`${name.value} ${surname.value}`);
